@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    height: 10vh;
+    background-color: rgb(225, 0, 255);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.0em;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+
+main{
+    color: white;
+    background-image: url("../BHPUd0d.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+form{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;  
+}
+
+button{
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
