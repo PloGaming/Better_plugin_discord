@@ -7,7 +7,7 @@
 
 nav{
     height: 10vh;
-    background-color: rgb(225, 0, 255);
+    background-color: black;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.0em;
@@ -18,10 +18,7 @@ nav{
 
 main{
     color: white;
-    background-image: url("../BHPUd0d.jpg");
-    background-size: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(#e66465, #9198e5);
     font-family: 'Ubuntu', sans-serif;
     height:90vh;
     display:flex;
@@ -44,5 +41,56 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 10px;
+}
 
+h1{
+    font-size: 4em;
+    color: rgb(0, 0, 0)
+}
+
+.io{
+    margin-top: 3px;
+}
+
+p{
+    margin-top:50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    display:inline-block;
+    position:absolute;
+    right: 5em;
+}
+
+.ciao{
+    display:inline;
+    margin-left:10px;
+}
+
+h3{
+    display:inline-block;
+    position:absolute;
+    left:2em;
+}
+
+.incredibile{
+    margin-right:20px;
+}
+
+button:hover{
+    background-color: #ffffff; /* Green */
+    border: 1px black solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
 }
