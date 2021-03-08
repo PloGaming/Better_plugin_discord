@@ -18,7 +18,7 @@ nav{
 
 main{
     color: white;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(rgb(2, 118, 251), rgb(164, 6, 255));
     font-family: 'Ubuntu', sans-serif;
     height:90vh;
     display:flex;
